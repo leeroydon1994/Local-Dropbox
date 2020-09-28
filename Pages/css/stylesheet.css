@@ -1,0 +1,129 @@
+html {
+  overflow: hidden;
+}
+
+.main-wrapper {
+  background-image: url('../4248588.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  width: 800px;
+  color: #FCFAF2;
+}
+
+.jumbotron>.display-2 {
+  letter-spacing: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.jumbotron>.lead {
+  margin-top: 1.5rem;
+  letter-spacing: .1rem;
+
+}
+
+.slogan {
+  margin-top: 1rem;
+  letter-spacing: .075rem;
+}
+
+.file-info {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.download {
+  margin-top: 2rem;
+  ;
+}
+
+/* buttons */
+
+input[type="file"],
+input[type="submit"] {
+  display: none;
+}
+
+.upload-files-button,
+.submit-button,
+.filesName,
+.download-button {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  display: block;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: 0.5s;
+  border: 0;
+}
+
+.upload-files-button,
+.submit-button,
+.download-button {
+  border-radius: 10rem;
+  cursor: pointer;
+  width: 80%;
+}
+
+.upload-files-button,
+.submit-button {
+  margin: 5rem auto 0;
+}
+
+.download-button {
+  margin: 1rem auto 0;
+}
+
+.filesName {
+  margin: .5rem auto;
+  width: 100%;
+
+}
+
+.upload-files-button,
+.download-button {
+  color: #1c1c1c;
+  background-color: #fcfaf2cb;
+}
+
+.upload-files-button:hover,
+.download-button:hover {
+  background-color: #fcfaf2;
+  transition: 0.5s;
+}
+
+.filesName:hover {
+  background-color: #fcfaf2;
+  color: #1c1c1c;
+  transition: 0.5s;
+}
+
+
+.submit-button {
+  color: #fcfaf2;
+  background-color: rgba(226, 46, 226, 0.829);
+}
+
+.submit-button:hover {
+  color: #fcfaf2;
+  background-color: fuchsia;
+  transition: 0.5s;
+}
+
+/* .footer {
+  position: relative;
+  top: 10rem;
+  margin: 0px auto;
+  font-size: .8rem;
+} */
